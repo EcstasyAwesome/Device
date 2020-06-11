@@ -6,7 +6,7 @@
  * @param trigger
  *        state when a device is active
  *        LOW/false - 0V trigger
- *        HIGH/true - 3.2/5V trigger
+ *        HIGH/true - 3.3/5V trigger
  */
 
 Device::Device(const uint8_t pin, const bool trigger) {
